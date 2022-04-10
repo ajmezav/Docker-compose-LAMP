@@ -8,6 +8,10 @@ Listar imagenes
 docker images
 
 CMD [ "source env/bin/activate" ] crea el ambiente virtual
-# RUN python3 Challenge_IAM/api/manage.py runserver corre la app
+RUN python Challenge_IAM/manage.py runserver corre la app
 
 falta el comando que migra la BD
+
+lamp
+
+https://riptutorial.com/docker-compose/example/11072/how-to-create-a-basic-lamp-environment-with-default-networking
