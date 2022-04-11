@@ -15,3 +15,5 @@ falta el comando que migra la BD
 lamp
 
 https://riptutorial.com/docker-compose/example/11072/how-to-create-a-basic-lamp-environment-with-default-networking
+
+https://www.jetbrains.com/pycharm/guide/tutorials/django-aws/django-docker/
