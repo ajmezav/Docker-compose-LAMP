@@ -1,0 +1,21 @@
+FROM python:3.6
+ENV PYTHONUNBUFFERED 1
+WORKDIR /code/
+COPY API_REST /code/
+# RUN pip install virtualenv  
+# RUN virtualenv -p python3 env
+RUN apt update
+RUN pip install Django==3.2.4
+RUN pip install django-rest-framework
+RUN pip install mysqlclient pymysql
+RUN apt-get install mysql\* -y
+EXPOSE 8000
+
+
+
+
+
+
+
+
+

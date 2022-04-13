@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS Django_api;
+
+USE Django_api;
